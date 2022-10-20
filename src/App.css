@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "NEXONFootballGothicBA1";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXONFootballGothicBA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "NEXONFootballGothicBA1";
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #fefefe;
+}
+
+h1 {
+  color: #a4e810;
+}
+
+.error {
+  color: #dd022a;
+}
+
+.copyRight {
+  color: #fefefe;
+  position: absolute;
+  bottom: 16px;
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: 300;
+}
